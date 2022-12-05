@@ -2,6 +2,7 @@ package cz.netuka.radovan.aoc2022;
 
 import cz.netuka.radovan.aoc2022.day01.Day1;
 import cz.netuka.radovan.aoc2022.day02.Day2;
+import cz.netuka.radovan.aoc2022.day03.Day3;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,6 +24,7 @@ public class Main {
         Map<Integer, Puzzle> solutions = new HashMap<>();
         solutions.put(1, new Day1());
         solutions.put(2, new Day2());
+        solutions.put(3, new Day3());
         solutions.get(day).print();
     }
 
